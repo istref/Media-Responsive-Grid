@@ -1,3 +1,11 @@
+A lot of front end developer that i have seen, seen their code layout is very complex and takes alot of time to do that.
+And most people try to target every element on media queries. And that is Wrong 100%.
+This layout as you can see below, it will save you a lot of time, not just you but everyone.
+In fact it targets only, to say one element.
+
+As you can see here, we are using only one elememt to control the flow(the main element that holds the content).
+The magic happens when we resize the content.
+
 /* Grid >> 320px
 ---------------------------------------------------------------------------- */
 @media (min-width: 320px) {
@@ -11,7 +19,3 @@
 .columns {margin-left: 30px;margin-right: 30px;text-align:left;}
 /* Hide or display other elements */
 }
-
-
-As you can see here, we are using only one elememt to control the flow(the main element that holds the content).
-The magic happens when we resize the content.
