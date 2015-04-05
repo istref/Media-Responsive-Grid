@@ -14,4 +14,4 @@
 
 
 As you can see here, we are using only one elememt to control the flow(the main element that holds the content).
-The magic happens when we resize the content.
+The magic happens when we resize the content..
